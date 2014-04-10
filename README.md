@@ -23,7 +23,7 @@ http://elinux.org/Bramble
 
 ### New Malinki style cluster
 
-Uses Raspberry Pi Compute Module and Hardware Switch Fabric
+Uses Raspberry Pi Compute Module and Hardware Switch Fabric.
 
 
 
@@ -31,8 +31,8 @@ Uses Raspberry Pi Compute Module and Hardware Switch Fabric
 
 1. Reduce cost
 
-Compute Module is self contained and only needs SODIMM socket plus the Switch Fabric thus reducing
-cost individual node.
+Compute Module is self contained and only needs SODIMM socket plus switch fabric thus reducing
+cost of the individual node.
 
 2. Increase functionality
 
@@ -42,7 +42,7 @@ cost individual node.
 
 3. Expand user base
 
-Recent opening of the Videocore spec will allow to unlock 24 GFLOPS of the available compute power and will lead to developing new applications accelerated by the GPU.
+Recent opening of the Videocore spec will unlocking 24 GFLOPS of the available compute power and will lead to developing new applications accelerated by the GPU.
 Robust mechanical form factor will open applications in robotics.
 
 
@@ -51,21 +51,21 @@ Robust mechanical form factor will open applications in robotics.
 
 1. Dual Cluster with 2 nodes
 
-stack-able PCB with 2 horizontally oriented modules, fixed GPIO, max power 2×3.5W = 7W can be battery powered, 
+Stackable PCB with 2 horizontally oriented modules, fixed GPIO, max power 2×3.5W = 7W can be battery powered, 
 limited interconnect using CPLD for switch fabric
 
 2. Small Cluster with 8 nodes 
 
-stack-able form factor with 8 vertical modules, virtualized (rout-able) GPIO, max power 8×3.5W = 28W, full interconnect with FPGA 
+Stackable form factor with 8 vertical modules, virtualized (routable) GPIO, max power 8×3.5W = 28W, full interconnect with FPGA switch fabric
 
 3. Medium Cluster with 16 nodes 
 
-standard desktop form factor (miniITX), combines 2 (back to back) 8 node Small Clusters, standard fixed pin-out, add adds power supply connectors, max power 56W
-full interconnect with FPGA
+Standard desktop form factor (miniITX), combines 2 (back to back) 8 node Small Clusters, standard fixed pin-out, adds power supply connectors, max power 56W
+full interconnect with FPGA switch fabric
 
 4. Big Cluster with 32 nodes
 
-standard server motherboard form factor, combines 2 (side by side) 16 node  Medium Clusters, adds power distribution and standard server power connections
+Standard server motherboard form factor, combines 2 (side by side) 16 node Medium Clusters, adds power distribution and standard server power connections
 max power 112W
 
 
