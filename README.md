@@ -79,26 +79,5 @@ Uses Raspberry Pi Compute Module and Hardware Switch Fabric.
 
 ### Switch Fabric Implementation
 
-#### CPLD based using existing chips
 
-Pros:
-- Easy to implenent using existing chips for USB and Ethernet
-- Inexpensive
-
-Cons:
-- Slower
-- Not flexible
-- Only some IO is routable
-
-
-#### FPGA based
-
-Pros:
-- Flexiblity
-- Routable IO
-- Interconnect Speed
-
-Cons:
-- Cost
-- Complexity
-
+[Fabric Link](https://github.com/32bitmicro/Malinki/blob/master/Fabric.md)
